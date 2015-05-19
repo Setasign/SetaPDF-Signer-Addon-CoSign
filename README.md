@@ -31,7 +31,6 @@ By default this packages depends on a licensed version of the SetaPDF-Signer com
     ],
     "require": {
         "setasign/setapdf-signer-addon-cosign": "dev-evaluation"
-    },
-    "non-feature-branches": ["evaluation"]
+    }
 }
 ```
