@@ -14,7 +14,7 @@ Add following to your composer.json:
         }
     ],
     "require": {
-        "setasign/setapdf-signer-addon-cosign": "2.*"
+        "setasign/setapdf-signer-addon-cosign": "1.*"
     }
 }
 ```
