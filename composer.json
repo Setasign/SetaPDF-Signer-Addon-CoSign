@@ -3,6 +3,7 @@
 	"description": "A signature module for the SetaPDF-Signer component by wrapping the CoSign Signature SOAP API.",
 	"minimum-stability": "stable",
 	"license": "Apache-2.0",
+	"homepage": "https://github.com/Setasign/SetaPDF-Signer-Addon-CoSign",
 	"authors": [
 		{
 			"name": "Jan Slabon",
