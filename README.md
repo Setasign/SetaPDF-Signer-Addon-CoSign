@@ -7,6 +7,12 @@ Add following to your composer.json:
 
 ```json
 {
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://www.setasign.com/downloads/"
+        }
+    ],
     "require": {
         "setasign/setapdf-signer-addon-cosign": "2.*"
     }
@@ -17,6 +23,12 @@ By default this packages depends on a licensed version of the SetaPDF-Signer com
 
 ```json
 {
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://www.setasign.com/downloads/"
+        }
+    ],
     "require": {
         "setasign/setapdf-signer-addon-cosign": "dev-evaluation"
     },
