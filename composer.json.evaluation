@@ -1,0 +1,26 @@
+{
+	"name": "setasign/setapdf-signer-addon-cosign",
+	"description": "A signature module for the SetaPDF-Signer component by wrapping the CoSign Signature SOAP API.",
+	"minimum-stability": "stable",
+	"license": "Apache-2.0",
+	"authors": [
+		{
+			"name": "Jan Slabon",
+			"email": "jan.slabon@setasign.com"
+		}
+	],
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "http://www.setasign.com/downloads/"
+		}
+	],
+	"require": {
+		"setasign/eval/setapdf-signer/ioncube/php5.4": "2.*"
+	},
+	"autoload": {
+		"psr-0": {
+			"SetaPDF_Signer_CoSign_": "src/"
+		}
+	}
+}
