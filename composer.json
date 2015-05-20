@@ -10,6 +10,12 @@
             "email": "jan.slabon@setasign.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://www.setasign.com/downloads/"
+        }
+    ],
     "require": {
         "setasign/setapdf-signer": "2.*"
     },
