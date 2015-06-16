@@ -1,6 +1,6 @@
 # CoSign signature module for the SetaPDF-Signer component
 
-This package offers an individual module for the [SetaPDF-Signer Component](https://www.setasign.com/signer) that allows you to use the [CoSign Signature SOAP API](http://developer.arx.com/quick-start/sapi-web-services/) for the signature process of PDF documents. A big advantage of this module is, that it only transfers the hash, that should be signed, to CoSign and not the complete PDF document. The returned signature will be placed in the PDF document by the SetaPDF-Signer Component.
+This package offers an individual module for the [SetaPDF-Signer Component](https://www.setasign.com/signer) that allows you to integrate the CoSign Central solution from [DocuSign](https://www.docusign.com) by using the [CoSign Signature SOAP API](http://developer.arx.com/quick-start/sapi-web-services/) for the signature process of PDF documents. A big advantage of this module is, that it only transfers the hash, that should be signed, to the CoSign Central solution and not the complete PDF document. The returned signature will be placed in the PDF document by the SetaPDF-Signer Component.
 
 ## Installation
 Add following to your composer.json:
